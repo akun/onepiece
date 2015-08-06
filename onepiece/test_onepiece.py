@@ -8,4 +8,4 @@ from onepiece.main import hello_world
 class HelloWordTestCase(TestCase):
 
     def test_hello_world(self):
-        self.assertEqual('Hello World!', hello_world())
+        self.assertEqual('One Piece', hello_world())
